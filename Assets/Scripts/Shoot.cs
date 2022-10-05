@@ -7,6 +7,8 @@ public class Shoot : MonoBehaviour
     public float bulletVelocity = 5f;
     public GameObject bullet;
     public GameObject bullet1;
+    public GameObject wall;
+    public GameObject wall1;
     
     void Start()
     {
@@ -22,17 +24,25 @@ public class Shoot : MonoBehaviour
             Vector2 direction = (Vector2)((worldMousePos - transform.position));
             direction.Normalize();
             // Creates the bullet locally
-            GameObject bullet = (GameObject)Instantiate(
-                                    bullet1,
-                                    transform.position + (Vector3)(direction * 0.5f),
-                                    Quaternion.identity);
+            GameObject bullet = (GameObject)Instantiate(bullet1, transform.position + (Vector3)(direction * 0.5f), Quaternion.identity);
             // Adds velocity to the bullet
             bullet.GetComponent<Rigidbody2D>().velocity = direction * bulletVelocity;
 
             Destroy(bullet, 5);
         }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 direction = (Vector2)((worldMousePos - transform.position));
+            direction.Normalize();
+            GameObject wall = (GameObject)Instantiate(wall1, transform.position + (Vector3)(direction * 0.5f), Quaternion.identity);
+            Debug.Log("Shoot");
+            Destroy(wall, 5);
+        }
 
-        
+
+
+
 
     }
 }
