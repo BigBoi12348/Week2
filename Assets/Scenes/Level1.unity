@@ -297,6 +297,7 @@ GameObject:
   - component: {fileID: 464851706}
   - component: {fileID: 464851705}
   - component: {fileID: 464851704}
+  - component: {fileID: 464851708}
   m_Layer: 3
   m_Name: Circle (1)
   m_TagString: Untagged
@@ -314,7 +315,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 95ca854001e153b4d9da9e83d8ca85ec, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -408,6 +409,19 @@ Transform:
   m_Father: {fileID: 1169797452}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &464851708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464851703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e53679ea90d74f8a80801a9096701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 326636885}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +518,7 @@ GameObject:
   - component: {fileID: 591914419}
   - component: {fileID: 591914418}
   - component: {fileID: 591914417}
+  - component: {fileID: 591914421}
   m_Layer: 3
   m_Name: Circle (1)
   m_TagString: Untagged
@@ -521,7 +536,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 95ca854001e153b4d9da9e83d8ca85ec, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -615,6 +630,19 @@ Transform:
   m_Father: {fileID: 748733008}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &591914421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591914416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e53679ea90d74f8a80801a9096701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 326636885}
 --- !u!1 &615899827
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1351,7 @@ GameObject:
   - component: {fileID: 1220690151}
   - component: {fileID: 1220690150}
   - component: {fileID: 1220690149}
+  - component: {fileID: 1220690153}
   m_Layer: 3
   m_Name: Circle (1)
   m_TagString: Untagged
@@ -1340,7 +1369,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 95ca854001e153b4d9da9e83d8ca85ec, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1434,6 +1463,19 @@ Transform:
   m_Father: {fileID: 1090122298}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1220690153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220690148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e53679ea90d74f8a80801a9096701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 326636885}
 --- !u!1 &1307427063
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,6 +1717,7 @@ GameObject:
   - component: {fileID: 1456993609}
   - component: {fileID: 1456993608}
   - component: {fileID: 1456993607}
+  - component: {fileID: 1456993611}
   m_Layer: 3
   m_Name: Circle (1)
   m_TagString: Untagged
@@ -1692,7 +1735,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 95ca854001e153b4d9da9e83d8ca85ec, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1786,6 +1829,19 @@ Transform:
   m_Father: {fileID: 1307427068}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1456993611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456993606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e53679ea90d74f8a80801a9096701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 326636885}
 --- !u!1 &1494860572
 GameObject:
   m_ObjectHideFlags: 0

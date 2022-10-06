@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 230937821}
   - component: {fileID: 230937820}
   - component: {fileID: 230937819}
+  - component: {fileID: 230937823}
   m_Layer: 3
   m_Name: bULLET
   m_TagString: Untagged
@@ -286,7 +287,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 95ca854001e153b4d9da9e83d8ca85ec, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -380,6 +381,19 @@ Transform:
   m_Father: {fileID: 1832249036}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &230937823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230937818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e53679ea90d74f8a80801a9096701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 211740632}
 --- !u!1 &315221735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,6 +1032,7 @@ GameObject:
   - component: {fileID: 548452750}
   - component: {fileID: 548452749}
   - component: {fileID: 548452748}
+  - component: {fileID: 548452752}
   m_Layer: 3
   m_Name: bULLET
   m_TagString: Untagged
@@ -1035,7 +1050,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 95ca854001e153b4d9da9e83d8ca85ec, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1129,6 +1144,19 @@ Transform:
   m_Father: {fileID: 643282081}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &548452752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548452747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e53679ea90d74f8a80801a9096701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 211740632}
 --- !u!1 &643282075
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,6 +2123,7 @@ GameObject:
   - component: {fileID: 1696764846}
   - component: {fileID: 1696764845}
   - component: {fileID: 1696764844}
+  - component: {fileID: 1696764848}
   m_Layer: 3
   m_Name: bULLET
   m_TagString: Untagged
@@ -2112,7 +2141,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 95ca854001e153b4d9da9e83d8ca85ec, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2206,6 +2235,19 @@ Transform:
   m_Father: {fileID: 361637652}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1696764848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696764843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e53679ea90d74f8a80801a9096701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 211740632}
 --- !u!1 &1721476563
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,6 +2371,7 @@ GameObject:
   - component: {fileID: 1791679234}
   - component: {fileID: 1791679233}
   - component: {fileID: 1791679232}
+  - component: {fileID: 1791679236}
   m_Layer: 3
   m_Name: bULLET
   m_TagString: Untagged
@@ -2346,7 +2389,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 95ca854001e153b4d9da9e83d8ca85ec, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2440,6 +2483,19 @@ Transform:
   m_Father: {fileID: 680205060}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791679236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791679231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13e53679ea90d74f8a80801a9096701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 211740632}
 --- !u!1 &1832249030
 GameObject:
   m_ObjectHideFlags: 0

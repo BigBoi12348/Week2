@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Weak : MonoBehaviour
 {
@@ -35,6 +36,7 @@ public class Weak : MonoBehaviour
             Debug.Log("xD");
             Destroy(player);
             Destroy(collision.gameObject);
+            SceneManager.LoadScene("Tutorial");
         }
     }
 
