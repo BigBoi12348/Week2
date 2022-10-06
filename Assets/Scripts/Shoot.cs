@@ -39,17 +39,19 @@ public class Shoot : MonoBehaviour
             }
             
         }
-        if (Input.GetButtonDown("Fire2"))
-        {
-            Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            var direction = (Vector2)((worldMousePos - transform.position));
-            var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        //if (Input.GetButtonDown("Fire2"))
+        //{
+        //    Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //    var direction = (Vector2)((worldMousePos - transform.position));
+        //    var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
      
-            GameObject wall = (GameObject)Instantiate(wall1, transform.position + (Vector3)(direction * 0.5f), Quaternion.AngleAxis(angle, Vector3.forward));
-            Debug.Log("Shoot");
-            Destroy(wall, 5);
-        }
+        //    GameObject wall = (GameObject)Instantiate(wall1, transform.position + (Vector3)(direction * 0.5f), Quaternion.AngleAxis(angle, Vector3.forward));
+        //    Debug.Log("Shoot");
+        //    Destroy(wall, 3);
+        //}
 
     }
-    
+
+   
+
 }

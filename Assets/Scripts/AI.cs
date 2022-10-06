@@ -8,8 +8,8 @@ public class AI : MonoBehaviour
     public GameObject bullet;
     public GameObject bullet1;
     public GameObject player;
-    public float timer;
-    public float colldown = 3f;
+    public float timer = 5f;
+    public float colldown = 5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +34,16 @@ public class AI : MonoBehaviour
        
     }
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (name.Equals("Player"))
+        {
+            Debug.Log("xD");
+            Destroy(player);
+            Destroy(collision.gameObject);
+        }
+    }
 
 
-   
+
 }
