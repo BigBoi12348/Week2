@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
         }
         if (childcounter == 1)
         {
+            //if(Scene.Equals())
             //Loads entier game 
            
             SceneManager.LoadScene(nextScene);

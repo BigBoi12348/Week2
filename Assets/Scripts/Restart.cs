@@ -19,6 +19,7 @@ public class Restart : MonoBehaviour
     public void restart()
     {
         SceneManager.LoadScene("Tutorial");
+        GameManager.nextScene = 0;
     }
     
     
